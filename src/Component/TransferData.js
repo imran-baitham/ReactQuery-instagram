@@ -8,7 +8,7 @@ const TransferData = ({ data }) => {
             <div className='section_div'>
                 <div className='profile_div'>
                     <h2 className='profile_name'>{data.name}</h2>
-                    <p>Location {data.location.name}</p>
+                    <p>Location_{data.location.name}</p>
                 </div>
                 <div>
                     <img className='section_img' src={data.image} alt='images' />
