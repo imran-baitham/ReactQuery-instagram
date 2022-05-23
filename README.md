@@ -1,5 +1,6 @@
 # React Query Instagram ...
-[preview.png]
+
+![Responsive instagram](/preview.png)
 
 </br>
 </br>

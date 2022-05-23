@@ -10,14 +10,16 @@ const TransferData = ({ data }) => {
                     <h2 className='profile_name'>{data.name}</h2>
                     <p>Location_{data.location.name}</p>
                 </div>
-                <div>
+                <div className='section_img'>
                     <img className='section_img' src={data.image} alt='images' />
                 </div>
-                <div>
-                    <p>Gander {data.gender}</p>
-                    <p><b> Post at </b>{data.created}</p>
+                <div className='section_last-div'>
+                    <div className='section_likes'>
                     <p>Likes {data.id}</p>
+                    <p><b> Post at </b>{data.created}</p>
+                    </div>
                     <p>status {data.status}</p>
+                    <p>Gander {data.gender}</p>
                 </div>
             </div>
         </section>
